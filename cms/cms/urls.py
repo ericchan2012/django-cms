@@ -20,7 +20,7 @@ from search.views import search
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^tiny_mce/(?P<path>.*)$', 'django.views.static.serve', {'document_root':r'D:\django-pro\cms\tiny_mce'}),
+    url(r'^tiny_mce/(?P<path>.*)$', 'django.views.static.serve', {'document_root':r'D:\django\cms\tiny_mce'}),
     #url(r'^editormd/(?P<path>.*)$', 'django.views.static.serve', {'document_root':r'D:\django\cms\editormd'}),
     url(r'', include('django.contrib.flatpages.urls')),
     url(r'^search/$', search),
