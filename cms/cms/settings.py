@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.sites',
     'django.contrib.flatpages',
     'search',
+    'wolf',
+    'tagging',
 ]
 SITE_ID = 1
 
